@@ -8,5 +8,9 @@ def prime?(number)
     range = (i..number - 1).to_a
     range.none? do | num |
       number % num == 0
+    end
+  else
+    false
+  end
   
 end
