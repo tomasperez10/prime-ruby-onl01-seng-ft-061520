@@ -7,5 +7,6 @@ def prime?(number)
   if number > 1
     range = (i..number - 1).to_a
     range.none? do | num |
+      number %
   
 end
