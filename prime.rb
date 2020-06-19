@@ -2,6 +2,6 @@
 
 def prime?(number)
   
-  i = 0
+  i = 2
   
 end
